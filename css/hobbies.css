@@ -1,0 +1,79 @@
+.hobbies__card {
+    align-items: center;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    padding: 1rem;
+    text-align: center;
+    width: 70px;
+    margin: .6rem;
+    border: 3px dashed black;
+    transition: 1s all;
+}
+.hobbies__card:hover{
+    background: #fdeca6;
+    transform: scale(1.1);
+}
+
+
+.hobbies__contenedor--card {
+    align-content: center;
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    text-align: center;
+}
+@media screen and (min-width: 0px) {
+    .hobbies__contenedor--card{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (min-width:760px) {
+    .hobbies__contenedor--card {
+        flex-wrap: wrap;
+    }
+}
+
+
+.hobbies__contenedor {
+    background: #F5F5F5;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+.hobbies__img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.hobbies__texto {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-size: .8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: .9rem;
+    width: 70px;
+}
+
+
+.hobbies__titulo {
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    line-height: 2.1rem;
+    padding-bottom: 20px;
+    text-align: center;
+}

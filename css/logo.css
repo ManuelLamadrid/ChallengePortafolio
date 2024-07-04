@@ -1,0 +1,16 @@
+.logo {
+    width: 50px;
+    height: 40px;
+    vertical-align: middle;
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .logo {
+        width: 40px;
+        height: 40px;
+        display: inline-flex;
+        vertical-align: middle;
+        
+    }
+}
